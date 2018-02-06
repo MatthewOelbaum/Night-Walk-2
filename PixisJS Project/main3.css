@@ -1,0 +1,117 @@
+body {
+        background-image: url("https://people.rit.edu/mro5772/230/project1/Images/FinalBackGround.gif");  
+background-repeat: no-repeat;
+    background-origin:content-box;
+       background-size: 1920px 1020px;     
+         height:800px;
+}
+
+div{
+    height: 750px;
+    width: 920px;
+   margin: 0 auto;
+     background-color: black;
+      border:3px solid orange;
+    overflow:scroll;
+box-shadow: 20px 20px 50px black;
+}
+ul{
+    list-style-type:none;
+     background-color: lightgray;
+    width: 875px;
+    padding: 20px;
+    border:6px solid orange;
+     margin: 50px 0px 0px 500px;
+    box-shadow: 20px 20px 50px black;
+}
+#Nav{
+       margin: 0 auto;
+}
+#Nav li
+{
+display: inline;
+list-style-type: none;
+     display:inline;
+ padding: 20px 50px;
+    text-align: center;
+    font-size: 18px
+    
+}
+
+
+
+#Nav a:link, #navlist a:visited
+{
+text-decoration: none;
+}
+
+#Nav a:hover
+{
+background-color: lightcyan;
+text-decoration: underline;
+padding-top: 20px;
+padding-bottom: 20px;
+   
+}  
+ #Nav a:visited{
+    color:red;
+text-decoration: none;
+         }
+ 
+#current{
+    background-color: lightcoral;
+     padding: 20px 20px 20px 20px;
+}
+p{
+    text-align: left;
+    margin-left: 100px;
+}
+p.Header{
+    text-align: center;
+    margin-left: 0px;
+    font-size: 30px;
+}   
+p.middle{
+    margin-bottom: 20px;
+        font-size: 20px;
+}
+section.main{
+     
+    font-size: 15px;
+}
+   
+
+#Gif{
+    width: 300px;
+    height:300px;
+    margin-left: 300px;
+    border: 6px solid black;
+ 
+}
+
+ul.DivList{
+    margin: 0px 0px 0px 0px;
+      width:850px;
+    list-style: circle;
+     font-size: 25px;
+    border: none;
+    text-align: left;
+    margin-left: 360px;
+    box-shadow: none;
+}
+h1.Bottom{
+    padding-top: 10px;
+    font-size: 30px;
+    text-align: left;
+    margin-left: 400px;
+}
+h1.Top{
+    font-size: 30px;
+    text-align: left;
+    margin-left: 400px;
+}
+h3{
+    text-align: center;
+    font-size: 70px;
+ margin:200px 0px 0px 0px;
+}
